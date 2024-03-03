@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Links</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+    header, nav, main, footer {
+      padding: 20px;
+      background-color: burlywood
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    header h1, nav ul {
+      margin: 0;
+      padding: 0;
+    }
+    header h1 {
+      color:blue;
+      text-align: center;
+    }
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+      background-color: #0d2eeb;
+      
+    }
+    nav ul li {
+      display: inline;
+      margin-right: 20px;
+      
+    }
+    nav ul li a {
+      font-size: 150%;
+      color: #fff;
+      transition: color 0.3s ease;
+      padding: 30px;
+      text-decoration: none;
+    }
+    nav ul li a:hover {
+      color: #007bff;
+    }
+    main {
+      padding: 20px;
+    }
+    section {
+      margin-bottom: 40px;
+    }
+    
+
+    #home p {
+      font-size: 120%;
+      color: #0d2eeb;
+    }
+    #home img {
+      width: 50%;
+      height: 50%;
+      color: #0d2eeb;
+    }
+    h2 {
+      color: #0d2eeb;
+      background-clip: border-box;
+   
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+      grid-gap: 20px;
+    }
+    .gallery img {
+      width: 100%;
+      height: 100%;
+      border-radius: 5px;
+      display: grid;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    #menu ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
+    #menu ul li {
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+    }
+    #menu ul li img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      margin-right: 20px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    section h3 {
+      color: #0d2eeb;
+    }
+    footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 10px 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to our Website</h1>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#menu">Menu</a></li>
+    </ul>
+  </nav>
+  <main>
+    <section id="home">
+      <h2>Home</h2>
+      <p>Welcome to our website! Infinite Electronics is a leading global supplier of electronic components, serving engineers’ urgent needs through a family of highly recognized and trusted brands. Our core mission is to support those requirements with an extensive offering of RF, industrial, and connectivity solutions. Same-day shipping, broad inventory selection, 24/7 service—it’s all part of what makes Infinite Electronics go. This simple, essential belief in positive urgency is the DNA that drives our business.</p>
+      <a href="https://www.infiniteelectronics.com/"><img src="technology_image.jpg" alt="Technology"></a>
+    </section>
+    <section id="gallery">
+      <h3>Gallery</h3>
+      <div class="gallery">
+        <a href="https://www.nature.org/en-us/"><img src="nature_image1.jpg" alt="Nature 1"></a>
+        <a href="https://www.nature.org/en-us/"><img src="nature_image2.jpg" alt="Nature 2"></a>
+        <a href="https://www.nature.org/en-us/"><img src="nature_image3.jpg" alt="Nature 3"></a>
+      </div>
+    </section>
+    <section id="menu">
+      <h3>Menu</h3>
+      <ul>
+        <li><a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DTaRI4-gTEQ4&psig=AOvVaw39Gq3vcjUzFmYpAQ7ybtBh&ust=1709572569046000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCJC2saDM2IQDFQAAAAAdAAAAABAJ"><img src="food_image1.jpg" alt="Eggroll"></a> Food Item 1</li>
+        <li><a href="https://trufflesbakery.co.uk/products/sugar-ring-doughnuts"><img src="food_image2.jpg" alt="Sausage"></a> Food Item 2</li>
+        <li><a href="https://www.seriouseats.com/nigerian-meat-pies-recipe-6385727"><img src="food_image3.jpg" alt="Meat Pie"></a> Food Item 3</li>
+      </ul>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2024 Image Links</p>
+  </footer>
+</body>
+</html>
